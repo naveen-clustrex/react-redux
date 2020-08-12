@@ -1,0 +1,38 @@
+h1 {
+  font-family: Lato;
+ 
+}
+
+p {
+  color: red;
+  font-size: 15px;
+}
+
+.page {
+  background-color: lightsteelblue;
+  text-align: center;
+}
+
+.table-content {
+    text-align: center;
+    width: 100%; 
+}
+
+.heading {
+  background-color: green;
+  color: white;
+}
+
+button {
+  padding:5px;
+  background-color: #8eff93;
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:aqua;
+}
+
+button:focus {
+  background-color: #fa997c;
+  color: black;
+}
+
