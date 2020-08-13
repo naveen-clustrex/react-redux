@@ -22,6 +22,8 @@ export const Signin = () => {
     axios.post('/users.json', details)
     .then(response => console.log(response))
     .catch(error => console.log(error));
+
+    console.log(details);
   };
 
   const updateField = e => {

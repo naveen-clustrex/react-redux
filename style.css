@@ -1,6 +1,12 @@
 h1 {
   font-family: Lato;
+  
  
+}
+h4 {
+  -webkit-text-stroke: 1.5px black;
+  color: yellow;
+  font-size: 1.3em;
 }
 
 p {
@@ -34,5 +40,9 @@ button {
 button:focus {
   background-color: #fa997c;
   color: black;
+}
+
+td {
+  text-align: left;
 }
 

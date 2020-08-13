@@ -3,9 +3,10 @@ import { useDispatch, useSelector } from 'react-redux';
 import {signInAction, logInAction} from './index';
 import './style.css';
 
+
 const Hello = () => {
   const loginPage = useSelector(state => state);
-  const dispatch  = useDispatch(); 
+  const dispatch  = useDispatch();
   
   return (
    <div className = "page">
