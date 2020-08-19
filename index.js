@@ -26,7 +26,6 @@ const entryPageReucer = (state, actions) => {
 
 let store = createStore(entryPageReucer);
 
-
 render(<Provider store = {store}>
         <Hello/>
       </Provider> , document.getElementById('root'));
